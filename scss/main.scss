@@ -84,8 +84,9 @@ h3 {
     grid-template-areas: 
     'bioimage bio bio'
     'job1 job2 job3'
-    'job4 job4 job5';
-    grid-template-columns: repeat(3, 2fr);
+    'job4 job5 job6';
+    grid-template-columns: 1fr, 1fr, 1fr;
+    
 }
 
 .bio-image{
@@ -118,6 +119,10 @@ h3 {
 
 .job-5{
     grid-area: job5;
+}
+
+.job-6{
+    grid-area: job6;
 }
 
 .job {
